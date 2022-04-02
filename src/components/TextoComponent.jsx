@@ -16,6 +16,11 @@ class TextoComponent extends Component{
         this.handleClick = this.actualizarEstado;
     }
 
+    componentDidMount(){
+        console.log("Se creó el componente")
+    
+      }
+
      textoSiguiente(){
         if(this.state.contador === 0){
             return data[0];
